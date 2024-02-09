@@ -1,0 +1,20 @@
+
+#	░██████╗██╗░░░██╗░██████╗  ███╗░░░███╗███████╗███╗░░██╗██╗░░░██╗
+#	██╔════╝╚██╗░██╔╝██╔════╝  ████╗░████║██╔════╝████╗░██║██║░░░██║
+#	╚█████╗░░╚████╔╝░╚█████╗░  ██╔████╔██║█████╗░░██╔██╗██║██║░░░██║
+#	░╚═══██╗░░╚██╔╝░░░╚═══██╗  ██║╚██╔╝██║██╔══╝░░██║╚████║██║░░░██║
+#	██████╔╝░░░██║░░░██████╔╝  ██║░╚═╝░██║███████╗██║░╚███║╚██████╔╝
+#	╚═════╝░░░░╚═╝░░░╚═════╝░  ╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚══╝░╚═════╝░
+#            i don't really rely on this anymore, but eh
+
+		set $mode_system "You clicked the powermenu. - (Lock, Reboot, Suspend, Poweroff)"
+		mode $mode_system {
+		bindsym l exec swaylock -f -C ~/.config/swaylock/config; mode "default"
+		bindsym e exec swaymsg exit; mode "default"
+		bindsym r exec systemctl reboot; mode "default"
+		bindsym s exec systemctl suspend; mode "default"
+		bindsym p exec systemctl poweroff; mode "default"
+			bindsym Return mode "default"
+			bindsym Escape mode "default"
+		}
+		bindsym $mod+Escape mode $mode_system

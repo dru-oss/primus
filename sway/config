@@ -1,0 +1,58 @@
+
+#   ░██████╗░██╗░░░░░░░██╗░█████╗░██╗░░░██╗
+#   ██╔════╝░██║░░██╗░░██║██╔══██╗╚██╗░██╔╝
+#   ╚█████╗░░╚██╗████╗██╔╝███████║░╚████╔╝░
+#   ░╚═══██╗░░████╔═████║░██╔══██║░░╚██╔╝░░
+#   ██████╔╝░░╚██╔╝░╚██╔╝░██║░░██║░░░██║░░░
+#   ╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝░░░╚═╝░░░
+
+### 	1366x768
+#	Sys Specs:
+
+#	Intel Pentium N4200
+#	4GB RAM
+#	500GB HDD | DDR3
+### 	4 Cores, 2.500GHz
+
+
+#	█▀▀ █▀█ █▄░█ █▀ █▀▀ █▄░█ █▀ █░█ █▀
+#	█▄▄ █▄█ █░▀█ ▄█ ██▄ █░▀█ ▄█ █▄█ ▄█
+
+## maybe i did too much work, but i don't really care at all, i enjoyed this.
+
+#	█▀▀ █▀█ █▄░█ █▀▀ █ █▀▀ █░█ █▀█ ▄▀█ ▀█▀ █ █▀█ █▄░█ █▀
+#	█▄▄ █▄█ █░▀█ █▀░ █ █▄█ █▄█ █▀▄ █▀█ ░█░ █ █▄█ █░▀█ ▄█
+
+	include $HOME/.config/sway/config.d/*
+	include $HOME/.config/sway/keybinds 
+	include $HOME/.config/sway/volume_brightness 
+	include $HOME/.config/sway/variables 
+	include $HOME/.config/sway/dir_keys 
+	include $HOME/.config/sway/app_prefs 
+	include $HOME/.config/sway/wob_exec 
+	include $HOME/.config/sway/gtk_theming 
+	include $HOME/.config/sway/titlebar 
+	include $HOME/.config/sway/wallpaper 
+	include $HOME/.config/sway/input_type 
+	include $HOME/.config/sway/screenlock 
+	include $HOME/.config/sway/sys_menu 
+	include $HOME/.config/sway/grimshot_keybind 
+	include $HOME/.config/sway/workspace_keybind 
+	include $HOME/.config/sway/title_format 
+	include $HOME/.config/sway/class 
+	include $HOME/.config/sway/en_waybar 
+	include $HOME/.config/sway/gaps
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

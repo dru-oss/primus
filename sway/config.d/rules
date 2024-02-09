@@ -1,0 +1,36 @@
+# Check :swaymsg -t get_tree | grep "app_id"
+#
+# Assign workspaces
+
+assign [app_id="foot"] 1
+for_window [app_id="foot"] focus
+
+assign [class="floorp"] 2
+for_window [class="floorp"] focus
+
+assign [app_id="thunar"] 3
+for_window [app_id="thunar"] focus
+
+assign [app_id="com.obsproject.Studio"] 4
+for_window [app_id="com.obsproject.Studio"] focus
+
+assign [class="Spotify"] 5
+for_window [class="Spotify"] focus
+
+
+for_window [app_id="yad"] floating enable
+for_window [app_id="file-roller"] floating enable, resize set width 50 ppt height 65 ppt
+for_window [app_id="pavucontrol" ] floating enable, resize set width 40 ppt height 30 ppt
+
+# Brave, chrome, chromium
+for_window [title="Picture-in-picture"] floating enable
+
+# Wayland default floats
+for_window [app_id="gnome-(power-statistics)"] floating enable
+for_window [app_id="org.kde.polkit-kde-authentication-agent-1"] floating enable
+for_window [app_id="(pavucontrol|psensor)"] floating enable
+for_window [app_id="mpv"] floating enable
+for_window [app_id="mpv"] resize set 1280 720
+for_window [app_id="mpv"] border pixel 0
+
+

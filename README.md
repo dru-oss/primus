@@ -14,6 +14,11 @@ save_file.wip
 - [ ] credits for the users that helped me understand sway
 - [ ] fix border titles to make em gone
 - [ ] learn vim
-- [ ] ditch nano
-- [ ] maybe another color scheme?
+- [ ] stay on debian
+- [ ] ~~ditch nano~~
+- [ ] a sway rice based on transformers theme
+
+> [!NOTE]
+> work in progress.
+
 

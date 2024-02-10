@@ -17,6 +17,15 @@ for_window [app_id="com.obsproject.Studio"] focus
 assign [class="Spotify"] 5
 for_window [class="Spotify"] focus
 
+assign [class="vesktop"] 6
+for_window [class="vesktop"] focus
+
+assign [app_id="gedit"] 7
+for_window [app_id="gedit"] focus
+
+assign [class="Github Desktop"] 8
+for_window [class="Github Desktop"] focus
+# doesnt work for some reason
 
 for_window [app_id="yad"] floating enable
 for_window [app_id="file-roller"] floating enable, resize set width 50 ppt height 65 ppt
